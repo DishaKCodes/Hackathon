@@ -1,4 +1,3 @@
-
 body{
     background-image: url(IMG_5545.JPG);
 }
@@ -11,33 +10,33 @@ body{
     margin: 5%;
     border-radius: 10%;
 }
-/* .navbar {
-    min-height: 50px; 
-    padding: 15px 0; 
+.navbar {
+    min-height: 50px; /* Adjust height as needed */
+    padding: 15px 0; /* Adjust top and bottom padding as needed */
 }
 
 .navbar-brand,
 .navbar-nav li a {
-    line-height: 60px; 
+    line-height: 60px; /* Adjust line height to vertically center text */
 }
 
 .navbar-toggle {
-    margin-top: 20px; 
+    margin-top: 20px; /* Adjust top margin for the toggle button */
 }
-
+/* Styling the navbar background */
 .navbar {
-    background-color: navy;
+    background-color: navy; /* Set the navbar background color to navy blue */
     border-radius: 20px;
     margin: 2.5%;
     
 }
 
-
+/* Styling the active tabs */
 .navbar-nav > .active > a,
 .navbar-nav > .active > a:hover,
 .navbar-nav > .active > a:focus {
-    background-color: darkblue; 
-} */
+    background-color: darkblue; /* Set the background color of active tabs to dark navy blue */
+}
 /* Add custom CSS to style the navbar */
 .navbar {
     background-color: navy; /* Set the navbar background color to navy blue */
@@ -121,61 +120,29 @@ body{
     border-radius: 30px;
     margin-bottom: 10%;
 }
-/* Add custom CSS to style the navbar */
-.navbar {
-    background-color: navy; /* Set the navbar background color to navy blue */
-    height: 100vh; /* Set the navbar height to 100% of the viewport height */
-    width: 200px; /* Set the width of the navbar */
-    position: fixed; /* Fix the navbar position */
-    top: 0; /* Align the navbar to the top */
-    left: 0; /* Align the navbar to the left */
-    overflow-y: auto; /* Add vertical scrollbar if needed */
+
+header{
+    display: flex;
+    justify-content: center;
 }
 
-.navbar-nav {
-    width: 100%; /* Make the navbar-nav take up full width of the navbar */
-    display: flex; /* Set navbar links to flex container */
-    flex-direction: column; /* Arrange navbar links vertically */
+#about{
+
 }
 
-.navbar-nav > li {
-    display: block; /* Display list items as block elements */
-    text-align: center; /* Center align the text */
+#fee_receipt th, td{
+    border: 2px solid black;
+    padding: 0.5rem;
+    text-align: left;
 }
 
-.navbar-nav > li > a {
-    padding: 10px; /* Add padding to the links */
-    color: #fff; /* Set text color to white */
+#fee_receipt a{
+    color: black;
+    text-decoration: none;
+    fill: black;
 }
 
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:focus {
-    background-color: darkblue; /* Set the background color of active tabs to dark navy blue */
+#scholarships a{
+    color: black;
+    text-decoration: none;
 }
-
-/* Positioning for the content */
-#content {
-    width:70%;/* Set margin-left to match the width of the navbar */
-    padding: 20px; /* Add padding to the content */
-    float: right;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 800px) {
-    .navbar {
-        width: 100%; /* Set the navbar to full width */
-        height: auto; /* Set the navbar height to auto */
-        position: static; /* Reset the navbar position */
-    }
-    
-    #content {
-        margin: 10%; /* Reset margin-left */
-        width: 80%; /* Set content width to full width */
-    }
-    #x{
-        width:50%;
-        margin: 25%;
-    }
-}
-
