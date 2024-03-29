@@ -1,0 +1,121 @@
+body{
+    background-image: url(IMG_5545.JPG);
+}
+
+
+#content {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent black background for the content */
+    padding: 20px;
+    height: 100vh;
+    margin: 5%;
+    border-radius: 10%;
+}
+.navbar {
+    min-height: 50px; /* Adjust height as needed */
+    padding: 15px 0; /* Adjust top and bottom padding as needed */
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 60px; /* Adjust line height to vertically center text */
+}
+
+.navbar-toggle {
+    margin-top: 20px; /* Adjust top margin for the toggle button */
+}
+/* Styling the navbar background */
+.navbar {
+    background-color: navy; /* Set the navbar background color to navy blue */
+    border-radius: 20px;
+    margin: 2.5%;
+    
+}
+
+/* Styling the active tabs */
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    background-color: darkblue; /* Set the background color of active tabs to dark navy blue */
+}
+/* Add custom CSS to style the navbar */
+.navbar {
+    background-color: navy; /* Set the navbar background color to navy blue */
+    height: 100vh; /* Set the navbar height to 100% of the viewport height */
+    width: 200px; /* Set the width of the navbar */
+    position: fixed; /* Fix the navbar position */
+    top: 0; /* Align the navbar to the top */
+    left: 0; /* Align the navbar to the left */
+    overflow-y: auto; /* Add vertical scrollbar if needed */
+}
+
+.navbar-nav {
+    width: 100%; /* Make the navbar-nav take up full width of the navbar */
+}
+
+.navbar-nav > li {
+    display: block; /* Display list items as block elements */
+    text-align: center; /* Center align the text */
+}
+
+.navbar-nav > li > a {
+    padding: 10px; /* Add padding to the links */
+    color: #fff; /* Set text color to white */
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    background-color: darkblue; /* Set the background color of active tabs to dark navy blue */
+}
+
+/* Positioning for the content */
+#content {
+    width: 70%;
+    float:right;
+    margin-left: 400px; /* Set margin-left to match the width of the navbar */
+    padding: 20px; /* Add padding to the content */
+}
+
+/* Add custom CSS to style the navbar */
+.navbar {
+    background-color: navy; /* Set the navbar background color to navy blue */
+    height: 100vh; /* Set the navbar height to 100% of the viewport height */
+    width: 200px; /* Set the width of the navbar */
+    position: fixed; /* Fix the navbar position */
+    top: 0; /* Align the navbar to the top */
+    left: 0; /* Align the navbar to the left */
+    overflow-y: auto; /* Add vertical scrollbar if needed */
+}
+
+.navbar-nav {
+    width: 100%; /* Make the navbar-nav take up full width of the navbar */
+    display: flex; /* Set navbar links to flex container */
+    flex-direction: column; /* Arrange navbar links vertically */
+}
+
+.navbar-nav > li {
+    display: block; /* Display list items as block elements */
+    text-align: center; /* Center align the text */
+}
+
+.navbar-nav > li > a {
+    padding: 10px; /* Add padding to the links */
+    color: #fff; /* Set text color to white */
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    background-color: darkblue; /* Set the background color of active tabs to dark navy blue */
+}
+
+/* Positioning for the content */
+#content {
+    margin-left: 200px; /* Set margin-left to match the width of the navbar */
+    padding: 20px; /* Add padding to the content */
+}
+#x{
+    margin-top: 10%;
+    width: 100%;
+    border-radius: 30px;
+}
