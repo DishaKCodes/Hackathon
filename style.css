@@ -120,3 +120,29 @@ body{
     border-radius: 30px;
     margin-bottom: 10%;
 }
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#about{
+
+}
+
+#fee_receipt th, td{
+    border: 2px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+#fee_receipt a{
+    color: black;
+    text-decoration: none;
+    fill: black;
+}
+
+#scholarships a{
+    color: black;
+    text-decoration: none;
+}
