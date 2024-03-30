@@ -41,14 +41,14 @@ body {
   }
 
   input[type="submit"] {
-      background-color: #007bff;
+      background-color: grey;
       color: white;
       cursor: pointer;
       transition: background-color 0.3s;
   }
 
   input[type="submit"]:hover {
-      background-color: #033872;
+      background-color: black;
   }
 
   p {
@@ -57,13 +57,13 @@ body {
   }
 
   a {
-      color: #007bff;
+      color:grey;
       text-decoration: none;
       transition: color 0.3s;
   }
 
   a:hover {
-      color: #0056b3;
+      color: black;
   }
 
   .forgot-password {

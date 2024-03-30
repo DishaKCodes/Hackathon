@@ -60,7 +60,7 @@ body{
     padding-right: 0%;
     height: 100vh; /* Set the navbar height to 100% of the viewport height */
     width: 20%; /* Set the width of the navbar */
-    position: fixed; /* Fix the navbar position */
+    position: fixed;
     top: 0; /* Align the navbar to the top */
     left: 0; /* Align the navbar to the left */
     overflow-y: auto; /* Add vertical scrollbar if needed */
