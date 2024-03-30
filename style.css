@@ -1,7 +1,7 @@
 body{
     background-image: url(IMG_5545.JPG);
     background-size: cover;
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 
@@ -25,27 +25,7 @@ body{
 }
 /* Styling the navbar background */
 .navbar {
- /* Set the navbar background color to navy blue */
     border-radius: 10px;
-  
-    
-}
-
-/* Styling the active tabs */
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:focus {
-     /* Set the background color of active tabs to dark navy blue */
-}
-/* Add custom CSS to style the navbar */
-.navbar {
-     /* Set the navbar background color to navy blue */
-    height: 100vh; /* Set the navbar height to 100% of the viewport height */
-    width: 20%; /* Set the width of the navbar */
-    position: fixed; /* Fix the navbar position */
-    top: 0; /* Align the navbar to the top */
-    left: 0; /* Align the navbar to the left */
-    overflow-y: auto; /* Add vertical scrollbar if needed */
 }
 
 .navbar-nav {
@@ -62,13 +42,6 @@ body{
     color: #fff; /* Set text color to white */
 }
 
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:focus {
-    /* Set the background color of active tabs to dark navy blue */
-}
-
-/* Positioning for the content */
 #content {
     margin-top: 2%;
     margin-bottom: 2%;
@@ -76,18 +49,14 @@ body{
     margin-right: 2%;
     width: 76%;
     float:right;
-    margin-left: 400px; /* Set margin-left to match the width of the navbar */
-    padding: 20px; /* Add padding to the content */
+    
 }
-
-/* Add custom CSS to style the navbar */
 .navbar {
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
     margin-right: 0%;
     padding-right: 0%;
-     /* Set the navbar background color to navy blue */
     height: 100vh; /* Set the navbar height to 100% of the viewport height */
     width: 20%; /* Set the width of the navbar */
     position: fixed; /* Fix the navbar position */
@@ -112,13 +81,6 @@ body{
     color: #fff; /* Set text color to white */
 }
 
-/* .navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:focus {
-    
-} */
-
-/* Positioning for the content */
 #content {
     overflow: scroll;
     overscroll-behavior: smooth;
@@ -156,36 +118,35 @@ header{
     color: black;
     text-decoration: none;
 }
+@media (max-width: 798px) {
+    
 
-#timetable th, td{
-    border: 2px solid black;
-    padding: 0.5rem;
-    text-align: left;
+    .navbar {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        position: relative;
+        height: auto;
+    }
+
+    #content {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2%;
+    }
+    
 }
+@media (max-width: 618px) {
+    .navbar {
+        width: 100%;
+        margin-bottom: 20px;
+        position: relative; 
+        height: auto;
+    }
 
-#timetable a{
-    color: black;
-    text-decoration: none;
-    fill: black;
-}
-
-#documents{
-
-}
-
-#notices th, td{
-    border: 2px solid black;
-    padding: 0.5rem;
-    text-align: left;
-}
-
-#notices a{
-    color: black;
-    text-decoration: none;
-    fill: black;
-}
-
-#content footer{
-    display: flex;
-    justify-content: center;
+    #content {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2%;
+    }
 }
