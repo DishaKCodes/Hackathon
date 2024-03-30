@@ -1,0 +1,78 @@
+body {
+      font-family: Arial, sans-serif;
+      background-image: url(IMG_5545.JPG); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+
+  form {
+      background-color: rgba(255, 255, 255, 0.9);
+      max-width: 350px;
+      width: 100%;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+  }
+
+  label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 8px;
+      color: #555;
+  }
+
+  input[type="email"], input[type="password"], input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+  }
+
+  input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+
+  input[type="submit"]:hover {
+      background-color: #033872;
+  }
+
+  p {
+      text-align: center;
+      margin-top: 15px;
+  }
+
+  a {
+      color: #007bff;
+      text-decoration: none;
+      transition: color 0.3s;
+  }
+
+  a:hover {
+      color: #0056b3;
+  }
+
+  .forgot-password {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  @media (max-width: 400px) {
+      form {
+          padding: 20px;
+      }
+  }
