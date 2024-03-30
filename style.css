@@ -156,3 +156,36 @@ header{
     color: black;
     text-decoration: none;
 }
+
+#timetable th, td{
+    border: 2px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+#timetable a{
+    color: black;
+    text-decoration: none;
+    fill: black;
+}
+
+#documents{
+
+}
+
+#notices th, td{
+    border: 2px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+#notices a{
+    color: black;
+    text-decoration: none;
+    fill: black;
+}
+
+#content footer{
+    display: flex;
+    justify-content: center;
+}
